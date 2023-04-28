@@ -22,4 +22,5 @@ public class ApplicationDbContext : DbContext
             return new ApplicationDbContext(optionsBuilder.Options);
         }
     }
+
 }
